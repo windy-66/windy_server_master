@@ -2,6 +2,7 @@ package com.windy.game.hall;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+//import com.windy.game.engine.utils.UtilTools;
 
 /**
  * 游戏大厅服务器启动类
@@ -16,5 +17,9 @@ public class GameHall {
     public static void main(String[] args) {
 
         LOGGER.info("gamehall start");
+     //   UtilTools.tip();
+        LOGGER.error("gamehall start");
+        LOGGER.warn("gamehall start");
+
     }
 }
