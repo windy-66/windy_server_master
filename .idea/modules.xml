@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/game-bydr/game-bydr.iml" filepath="$PROJECT_DIR$/game-bydr/game-bydr.iml" />
       <module fileurl="file://$PROJECT_DIR$/game-engine/game-engine.iml" filepath="$PROJECT_DIR$/game-engine/game-engine.iml" />
       <module fileurl="file://$PROJECT_DIR$/game-hall/game-hall.iml" filepath="$PROJECT_DIR$/game-hall/game-hall.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/windy_server_master.iml" filepath="$PROJECT_DIR$/.idea/windy_server_master.iml" />
