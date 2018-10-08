@@ -8,6 +8,7 @@
       <list>
         <option value="$PROJECT_DIR$/game-hall/pom.xml" />
         <option value="$PROJECT_DIR$/game-engine/pom.xml" />
+        <option value="$PROJECT_DIR$/game-bydr/pom.xml" />
       </list>
     </option>
   </component>
