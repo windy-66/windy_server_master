@@ -3,6 +3,7 @@ package com.windy.game.engine.mina;
 import java.util.Map;
 
 
+import com.windy.game.engine.code.DefaultProtocolCodecFactory;
 import com.windy.game.engine.mina.config.MinaServerConfig;
 import org.apache.mina.core.filterchain.DefaultIoFilterChainBuilder;
 import org.apache.mina.core.filterchain.IoFilter;
@@ -94,7 +95,7 @@ public class TcpServer implements Runnable{
                    factory = new DemuxingProtocolCodecFactory();
                }
 
-               if(factory instanceof DefaultProtocolCodecFac){
+               if(factory instanceof DefaultProtocolCodecFactory){
 
                }
            }
