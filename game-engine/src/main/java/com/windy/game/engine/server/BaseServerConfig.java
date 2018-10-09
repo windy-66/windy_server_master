@@ -9,6 +9,7 @@ import java.util.Objects;
  *
  * @author jiaxiaocheng
  * @create 2018-10-08 23:12
+ * QQ:909633131
  **/
 public abstract class BaseServerConfig {
 

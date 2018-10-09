@@ -8,8 +8,9 @@ import org.slf4j.LoggerFactory;
  *
  * @author jiaxiaocheng
  * @create 2018-10-07 20:48
+ * QQ:909633131
  **/
 public class GameBydr {
-    private static  final Logger LOGERR = LoggerFactory.getLogger(GameBydr.class);
+    private static  final Logger log = LoggerFactory.getLogger(GameBydr.class);
 
 }

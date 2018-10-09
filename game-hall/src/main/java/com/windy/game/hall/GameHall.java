@@ -2,24 +2,24 @@ package com.windy.game.hall;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-//import com.windy.game.engine.utils.UtilTools;
 
 /**
  * 游戏大厅服务器启动类
  *
  * @author jiaxiaocheng
  * @create 2018-09-28 0:03
+ * QQ:909633131
  **/
 public class GameHall {
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(GameHall.class);
+    private static final Logger log = LoggerFactory.getLogger(GameHall.class);
 
     public static void main(String[] args) {
 
-        LOGGER.info("gamehall start");
+        log.info("gamehall start");
      //   UtilTools.tip();
-        LOGGER.error("gamehall start");
-        LOGGER.warn("gamehall start");
+        log.error("gamehall start");
+        log.warn("gamehall start");
 
     }
 }

@@ -11,10 +11,11 @@ import com.windy.game.engine.mina.config.MinaServerConfig;
  *
  * @author jiaxiaocheng
  * @create 2018-10-08 17:40
+ * QQ:909633131
  **/
 public class UdpServer implements Runnable{
 
-    private static final Logger LOGGER = LoggerFactory.getLogger(UdpServer.class);
+    private static final Logger log = LoggerFactory.getLogger(UdpServer.class);
     private MinaServerConfig minaServerConfig;
     private IoHandler ioHandler;
     private NioDatagramAcceptor acceptor;
